@@ -1,4 +1,4 @@
-package org.ddd.shared.util.validate;
+package org.ddd.shared.util.validator;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

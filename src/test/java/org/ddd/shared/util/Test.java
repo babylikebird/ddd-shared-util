@@ -1,6 +1,6 @@
 package org.ddd.shared.util;
 
-import org.ddd.shared.util.validate.StringValidator;
+import org.ddd.shared.util.validator.StringValidator;
 
 /**
  * @author Mr.Yangxiufeng
