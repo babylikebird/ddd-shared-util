@@ -34,20 +34,9 @@ public class StringValidator {
             return false;
         }
         int length = text.length();
-        return length>=min&&length<=max;
+        return length >= min && length <= max;
     }
-    /**
-     * 匹配空格与·
-     * @param text 待验证字符串
-     * @throws Exception
-     */
-    public static boolean matchBlankAndSpot(String text) throws Exception {
-        if (null == text) {
-            return false;
-        }
-        final String regex = "[·\\s]{2,}|^[·\\s]|[·\\s]$";
-        return text.matches(regex);
-    }
+
 
     /**
      * <p>是否是纯中文</p>
