@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
  * @date 2020-09-10
  * @time 16:06
  */
-public class StringValidator {
+public class StringValidatorUtil {
     /**
      * 是否为纯数字
      * @param text 待验证字符串

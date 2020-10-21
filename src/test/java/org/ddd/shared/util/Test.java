@@ -1,6 +1,6 @@
 package org.ddd.shared.util;
 
-import org.ddd.shared.util.validator.StringValidator;
+import org.ddd.shared.util.pinyin.PinYinUtil;
 
 /**
  * @author Mr.Yangxiufeng
@@ -13,6 +13,8 @@ public class Test {
 //        System.out.println(StringValidator.isContainNumber("adaa2@"));
 //        System.out.println(StringValidator.isContainUpperCase("aCaa2@"));
 //        System.out.println(StringValidator.isContainLowerCase("aCaa2@"));
-        System.out.println(StringValidator.isContainSpecialSymbol("aCaa2"));
+//        System.out.println(StringValidator.isContainSpecialSymbol("aCaa2"));
+        System.out.println(PinYinUtil.getDuoYinFirstSpell("长沙市市长", false));
+        System.out.println(PinYinUtil.getUpperCase("长沙市市长", false));
     }
 }

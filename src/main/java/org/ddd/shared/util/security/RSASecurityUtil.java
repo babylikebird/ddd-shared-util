@@ -1,4 +1,4 @@
-package org.ddd.shared.util.rsa;
+package org.ddd.shared.util.security;
 
 import org.apache.commons.codec.binary.Base64;
 
@@ -15,7 +15,7 @@ import java.security.spec.X509EncodedKeySpec;
  * @date 2020-08-27
  * @time 17:17
  */
-public class RSAEncryptUtil {
+public class RSASecurityUtil {
 
     private static final String KEY_ALGORITHM = "RSA";
     private static final int RSA_KEY_SIZE = 1024;
@@ -101,7 +101,6 @@ public class RSAEncryptUtil {
             out.close();
             return encryptedData;
         } catch (Exception e) {
-            e.printStackTrace();
             throw new RuntimeException(e.getMessage());
         }
     }
@@ -143,7 +142,6 @@ public class RSAEncryptUtil {
             out.close();
             return decryptedData;
         } catch (Exception e) {
-            e.printStackTrace();
             throw new RuntimeException(e.getMessage());
         }
     }
