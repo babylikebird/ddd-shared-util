@@ -6,7 +6,7 @@
 
     <groupId>org.ddd.shared</groupId>
     <artifactId>ddd-shared-util</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <properties>
         <commons-codec.version>1.11</commons-codec.version>
