@@ -50,6 +50,18 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>eccCashierSnapshotsDeploy</id>
+            <name>Releases name</name>
+            <url>http://10.10.11.151:38081/repository/ecc-cashier-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>eccCashierSnapshotsDeploy</id>
+            <name>snapshots name</name>
+            <url>http://10.10.11.151:38081/repository/ecc-cashier-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
     <repositories>
         <repository>
             <id>ali-maven</id>
