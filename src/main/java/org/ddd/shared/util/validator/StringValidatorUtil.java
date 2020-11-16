@@ -63,7 +63,7 @@ public class StringValidatorUtil {
      * 匹配手机号
      * @param text 待验证字符串
      */
-    public static boolean isMobile(String text) throws Exception{
+    public static boolean isMobile(String text){
         if (null == text) {
             return false;
         }
@@ -75,7 +75,7 @@ public class StringValidatorUtil {
      * 匹配固定电话
      * @param text 待验证字符串
      */
-    public static boolean isPhone(String text) throws Exception{
+    public static boolean isPhone(String text){
         if (null == text) {
             return false;
         }
@@ -86,7 +86,7 @@ public class StringValidatorUtil {
      * 匹配身份证号
      * @param text 待验证字符串
      */
-    public static boolean isIdCard(String text) throws Exception {
+    public static boolean isIdCard(String text)  {
         if (null == text) {
             return false;
         }
@@ -99,11 +99,11 @@ public class StringValidatorUtil {
      * 匹配统一社会信用代码
      * @param text 待验证字符串
      */
-    public static boolean isUnifiedCode(String text) throws Exception {
+    public static boolean isUnifiedCode(String text) {
         if (null == text) {
             return false;
         }
-        final String regex = "^(11|12|13|19|51|52|53|59|91|92|93|Y1)\\d{6}[\\dA-Z]{10}$";
+        final String regex = "^([0-9A-HJ-NPQRTUWXY]{2}\\d{6}[0-9A-HJ-NPQRTUWXY]{10}|[1-9]\\d{14})$";
         return text.matches(regex);
     }
 

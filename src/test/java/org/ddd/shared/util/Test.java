@@ -1,6 +1,7 @@
 package org.ddd.shared.util;
 
 import org.ddd.shared.util.pinyin.PinYinUtil;
+import org.ddd.shared.util.validator.StringValidatorUtil;
 
 /**
  * @author Mr.Yangxiufeng
@@ -16,5 +17,6 @@ public class Test {
 //        System.out.println(StringValidator.isContainSpecialSymbol("aCaa2"));
         System.out.println(PinYinUtil.getDuoYinFirstSpell("长沙市市长", false));
         System.out.println(PinYinUtil.getUpperCase("长沙市市长", false));
+        System.out.println(StringValidatorUtil.isUnifiedCode("91520115321756976P"));
     }
 }
