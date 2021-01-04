@@ -1,4 +1,4 @@
-package org.ddd.shared.util.pinyin;
+package com.dsy.shared.util.pinyin;
 
 import net.sourceforge.pinyin4j.PinyinHelper;
 import net.sourceforge.pinyin4j.format.HanyuPinyinCaseType;

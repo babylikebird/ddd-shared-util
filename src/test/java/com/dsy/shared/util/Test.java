@@ -1,7 +1,7 @@
-package org.ddd.shared.util;
+package com.dsy.shared.util;
 
-import org.ddd.shared.util.pinyin.PinYinUtil;
-import org.ddd.shared.util.validator.StringValidatorUtil;
+import com.dsy.shared.util.pinyin.PinYinUtil;
+import com.dsy.shared.util.validator.StringValidatorUtil;
 
 /**
  * @author Mr.Yangxiufeng
