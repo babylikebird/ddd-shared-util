@@ -1,4 +1,4 @@
-package com.dsy.shared.util.validator;
+package com.dsy.sunshine.util.validator;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

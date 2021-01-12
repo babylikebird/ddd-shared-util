@@ -1,4 +1,4 @@
-package com.dsy.shared.util.security;
+package com.dsy.sunshine.util.security;
 
 import java.io.UnsupportedEncodingException;
 

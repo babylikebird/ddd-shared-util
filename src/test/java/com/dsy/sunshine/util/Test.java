@@ -1,7 +1,7 @@
-package com.dsy.shared.util;
+package com.dsy.sunshine.util;
 
-import com.dsy.shared.util.pinyin.PinYinUtil;
-import com.dsy.shared.util.validator.StringValidatorUtil;
+import com.dsy.sunshine.util.pinyin.PinYinUtil;
+import com.dsy.sunshine.util.validator.StringValidatorUtil;
 
 /**
  * @author Mr.Yangxiufeng

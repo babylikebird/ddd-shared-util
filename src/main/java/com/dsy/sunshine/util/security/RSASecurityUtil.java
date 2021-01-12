@@ -1,4 +1,4 @@
-package com.dsy.shared.util.security;
+package com.dsy.sunshine.util.security;
 
 import org.apache.commons.codec.binary.Base64;
 

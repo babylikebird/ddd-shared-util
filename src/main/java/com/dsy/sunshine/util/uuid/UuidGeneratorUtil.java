@@ -1,4 +1,4 @@
-package com.dsy.shared.util.uuid;
+package com.dsy.sunshine.util.uuid;
 
 import java.nio.ByteBuffer;
 import java.util.Base64;
